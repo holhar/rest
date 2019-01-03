@@ -16,6 +16,8 @@
 
     <properties>
         <snippetsDirectory>${project.build.directory}/generated-snippets</snippetsDirectory>
+        <!-- The main class to start by executing java -jar -->
+        <start-class>demo.Application</start-class>
     </properties>
 
     <dependencies>
